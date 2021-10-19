@@ -15,6 +15,7 @@ class Switch extends React.Component
       message: ''
     };
 
+    this.play = this.play.bind(this);
   }
   render()
   {
